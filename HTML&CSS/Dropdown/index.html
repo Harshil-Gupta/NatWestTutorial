@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Courses</title>
+</head>
+
+<body>
+    <div id="addcoursebox">
+        <label for="add">Please enter your course to add:</label>
+        <input type="text" placeholder="Course Name" id="inputcourse" required>
+        <button id="addcourse" onclick="addcourse()">Add Course</button>
+    </div>
+
+    <div id="courses_container">
+        <label for="courses_dropdown">Courses you have added:</label>
+        <select id="courses_dropdown">
+        </select>
+    </div>
+
+    <script src="helper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style src="style.css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Operation</title>
+</head>
+<body>
+    <h1>Current Time: </h1>
+    <div id="clock"></div>
+    
+    <div id="num">
+        <h3>Enter number 1</h3>
+        <label for="num1">Enter Number 1:</label>
+        <input type="number" id="num1"/>
+        <button id="add2list" onclick="add2list()">Add Number to List</button>
+   
+    </div>
+
+    <div id="numbers_container">
+        <label for="numbers">Numbers you have added:</label>
+        <select id="numbers">
+        </select>
+    </div>
+
+
+    <button id="clickme" onclick="add()">Add</button>
+    <div id="addresult"></div>
+
+
+    <button id="clickme" onclick="square()">Square</button>
+    <div id="squareresult"></div>
+
+    <button id="clickme" onclick="valid()">Valid</button>
+    <div id="validresult"></div>
+
+</body>
+<script src="yoyo.js"></script>
+</html>

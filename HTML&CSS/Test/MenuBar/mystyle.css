@@ -1,0 +1,20 @@
+.test li {
+    float: right;
+    padding: 5%;
+    list-style-type: none;
+}
+
+.test {
+    background-color: #a0ff7d;
+    overflow: hidden;
+}
+
+.test a:link {
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+
+.test{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
